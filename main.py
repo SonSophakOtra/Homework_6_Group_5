@@ -2,9 +2,9 @@
 def replace_last():
     pass
 
-# EXERCISE 2
-def index_power():
-    pass
+# EXERCISE 2 by Son Sophak Otra
+def index_power(array, n):
+    return array[n] ** 2 if n < len(array) else -1
 
 # EXERCISE 3
 def remove_all_after():
