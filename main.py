@@ -16,6 +16,7 @@ def replace_last():
 # EXERCISE 2 by Son Sophak Otra
 def index_power(array, n):
     return array[n] ** 2 if n < len(array) else -1
+
 #EXERCISE 3 by Song Rithykun
 if b not in num_lst:
         return num_lst
@@ -27,7 +28,7 @@ if b not in num_lst:
 
     return num_lst
 
-# EXERCISE 4
+# EXERCISE 4 by Monyvann
 def chunking_by():
     result = []
     for i in range(0, len(num_lst), chunksize): 
@@ -35,7 +36,7 @@ def chunking_by():
 
     return result
 
-# EXERCISE 5
+# EXERCISE 5 by Choun Nirak
 def backward_string_by_word():
     return word[::-1]
 
