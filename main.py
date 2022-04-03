@@ -18,11 +18,15 @@ if b not in num_lst:
 
 # EXERCISE 4
 def chunking_by():
-    pass
+    result = []
+    for i in range(0, len(num_lst), chunksize): 
+        result.append( num_lst[i:i + chunksize] )
+
+    return result
 
 # EXERCISE 5
 def backward_string_by_word():
-    pass
+    return word[::-1]
 
 def init():
     pass
