@@ -1,6 +1,17 @@
-# EXERCISE 1
+# EXERCISE 1 by Sophalkalyan Chheny
 def replace_last():
-    pass
+    if len(num_lst) == 1:
+        return num_lst
+    
+    last_item = num_lst[-1]
+    last_index = num_lst.index(last_item)
+
+    num_lst.pop(last_index)
+    num_lst.insert(last_index, 1)
+    num_lst.pop(0)
+    num_lst.insert(0, last_item)
+
+    return num_lst
 
 # EXERCISE 2 by Son Sophak Otra
 def index_power(array, n):
