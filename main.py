@@ -1,5 +1,5 @@
 # EXERCISE 1 by Sophalkalyan Chheny
-def replace_last():
+def replace_last(num_lst):
     if len(num_lst) == 1:
         return num_lst
     
@@ -18,7 +18,8 @@ def index_power(array, n):
     return array[n] ** 2 if n < len(array) else -1
 
 #EXERCISE 3 by Song Rithykun
-if b not in num_lst:
+def remove_all_after(num_lst, b)
+    if b not in num_lst:
         return num_lst
     if len(num_lst) <= 0:
         return num_lst
@@ -29,7 +30,7 @@ if b not in num_lst:
     return num_lst
 
 # EXERCISE 4 by Monyvann
-def chunking_by():
+def chunking_by(num_lst, chunksize):
     result = []
     for i in range(0, len(num_lst), chunksize): 
         result.append( num_lst[i:i + chunksize] )
@@ -37,7 +38,7 @@ def chunking_by():
     return result
 
 # EXERCISE 5 by Choun Nirak
-def backward_string_by_word():
+def backward_string_by_word(word):
     return word[::-1]
 
 def init():
